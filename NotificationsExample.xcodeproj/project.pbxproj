@@ -98,6 +98,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = C9ZJ96D59R;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -302,6 +307,7 @@
 				DC5079021DF5882900976610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
